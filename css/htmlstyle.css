@@ -1,0 +1,262 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+body{
+	padding: 30px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.head1{
+	font-size: 32px;
+	font-weight: 600;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: blueviolet;
+	font-style: italic;
+	padding: 20px 20px 20px 30px;
+}
+
+.head1:hover{
+	text-shadow: 2px 0px 0px blueviolet;
+}
+
+.header__wrapper{
+	display: flex; align-items: center; justify-content: space-between;
+	background: grey;
+}
+
+#navbar{
+	display: flex; align-items: center; justify-content: center;
+}
+
+#navbar > li{
+	margin: 0 20px 0 0;
+	font-size: 40px;
+}
+
+#navbar > li:last-child{
+	margin: 0;
+}
+
+#navbar > li > a{
+	font-size: 20px;
+	font-weight: 600;
+	color: #FFF;
+	padding: 20px 20px 20px 0px;
+}
+
+#navbar > li > a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+.search{
+	padding: 30px;
+}
+
+form {
+  position: relative;
+  width: 300px;
+  padding: 10px;
+  margin: 0 auto;
+  left: 20%;
+}
+
+input {
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+input[type=text] {
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.search button {
+  float: right;
+  padding: 2px;
+  margin-top: 5px;
+  margin-right: 66px;
+  margin-top: 1px;
+  background: #FFF;
+  border: none;
+  cursor: pointer;
+}
+
+button{
+	padding: 5px;
+	border: 2px solid #000;
+	border-radius: 10px;
+}
+
+.search button:hover {
+  background: #17a640;
+}
+
+.main{
+	margin: 40px 0px 0px 0px;
+}
+
+.mainblock{
+	text-align: center;
+}
+
+.mainblock img{
+	max-height: 390px;
+	max-width: 380px;
+	margin: 55px 0px 32px 0px;
+}
+/*Первое сообщение*/
+.welcome{
+	font-size: 28px;
+	font-weight: 600;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+/*Описание*/
+.description1{
+	font-size: 22px;
+	font-weight: 400;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0px 0px 66px 0px;
+}
+
+.lnews{
+	text-align: center;
+}
+
+.txt1{
+	font-size: 26px;
+	font-weight: 600;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0px 0px 80px 0px;
+}
+
+.newsblock1{
+	border: 3px solid #000;
+	border-radius: 20px;
+	max-width: 240px;
+	padding: 15px;
+}
+
+.newsblock1:hover{
+	border: 4px solid #000;
+}
+
+.txt2{
+	font-size: 22px;
+	font-weight: 400;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0px 0px 20px 0px;
+}
+
+.txt2::selection{
+	color: red;
+}
+
+.txt3{
+	font-size: 22px;
+	font-weight: 400;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0px 0px 20px 0px;
+}
+
+.txt3::selection{
+	color: blue;
+}
+/*Обзоры*/
+.reviews{
+	text-align: center;
+	margin: 60px 0px 0px 0px;
+}
+
+.txt4{
+	font-size: 26px;
+	font-weight: 600;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0px 0px 80px 0px;
+}
+
+.txt5{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0px 0px 80px 0px;
+}
+/*Подвал*/
+.footer{
+	background: grey;
+}
+/*Подвал*/
+.footerbar{
+
+}
+/*Подвал*/
+#footerbar > li > a{
+	font-size: 22px;
+	font-weight: 600;
+	color: darkgreen;
+	padding: 60px 0px 60px 40px;
+}
+/*Подвал*/
+#footerbar > li{
+	margin: 0 0 0 0;
+	font-size: 26px;
+	padding: 20px 0px 10px 10px;
+}
+/*Подвал*/
+#footerbar > li:last-child{
+	margin: 0;
+}
+/*Информация о сайте*/
+.info1{
+	text-align: center;
+	padding: 20px;
+}
+
+.txt6{
+	font-size: 20px;
+	color: #FFF;
+	margin: 0px 0px 10px 0px;
+}
+
+.txt7{
+	font-size: 20px;
+	color: #FFF;
+	font-style: oblique;
+}
+/*Колонки ссылок в подвале*/
+.footer__wrapper{
+	display: flex; align-items: center; justify-content: center;
+	padding: 20px;
+}
+
